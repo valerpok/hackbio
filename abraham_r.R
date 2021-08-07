@@ -1,1 +1,1 @@
-print(c("Abraham Adeyemo, Abrahamrocketmail2@gmail.com, @Abraham4, genomics, vaccine informatics"))
+print("Abraham Adeyemo, Abrahamrocketmail2@gmail.com, @Abraham4, genomics, vaccine informatics")

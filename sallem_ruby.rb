@@ -1,18 +1,22 @@
-def (hamming_distance)
-  hamming_count = 0
+def hamm_dist(a, b)
+  dist = 0
+  i = a.length
 
-  S.each_index { |idx| hamming_count += S if S.values_at(idx) != T.values_at(idx) }
-     end
-  hamming_count
+  for i in 0..a.length
+  	if a[i] != b[i]
+  		dist += 1
+  	end
+  end
+
+  return dist
 end
-print (hamming_distance)
 
 
-N = " SALEEM ULLAH, "
-E = " SALEEMULLAH900@GMAIL.COM, "
-S = " @saleem, "
-T = " @saleembio, "
-B = " GENOMICS AND DRUG DEVELOPMENT, "
-H = 
-print ( N  +   E  +  S +  T +  B +   H )
+N = "SALEEM ULLAH, "
+E = "SALEEMULLAH900@GMAIL.COM, "
+S = "@saleem, "
+T = "@saleembio, "
+B = "GENOMICS AND DRUG DEVELOPMENT, "
+H = hamm_dist("@saleem", "@saleembio").to_s
+print( N  +   E  +  S +  T +  B + H )
 
