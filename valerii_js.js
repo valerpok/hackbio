@@ -9,4 +9,5 @@ function humming(a, b) {
 slack = "@Valerii"
 twitter = "@__Immo"
 humm = humming(slack, twitter)
+console.log("\n")
 console.log('Pokrytiuk Valerii, valer.pok@gmail.com, @Valerii, genomics, @__Immo, ' + humm)
