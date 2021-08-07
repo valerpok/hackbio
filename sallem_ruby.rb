@@ -18,5 +18,5 @@ S = "@saleem, "
 T = "@saleembio, "
 B = "GENOMICS AND DRUG DEVELOPMENT, "
 H = hamm_dist("@saleem", "@saleembio").to_s
-print( N  +   E  +  S +  T +  B + H )
+print( N  +   E  +  S +  B +  T + H )
 
